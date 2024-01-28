@@ -1,0 +1,84 @@
+/* 
+=== Project Fonts ===
+ */
+
+@font-face {
+  font-family: "Nova";
+  src: url("../fonts/Nevo.otf");
+}
+@font-face {
+  font-family: "Nova-bold";
+  src: url("../fonts/Nevo_Bold.otf");
+}
+@font-face {
+  font-family: "Nova-extraBold";
+  src: url("../fonts/Nevo_ExtraBold.otf");
+}
+
+/* 
+=== Custom Proporty ===
+ */
+
+:root {
+  /* Background Colors */
+  --bg-primary: #6b2377;
+  --bg-secondry: #a8ee52;
+  --bg-dark: #87c240;
+
+  /* Font Colors */
+  --text-white: #fff;
+}
+
+/* 
+=== Reset Code ===
+ */
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nova" !important;
+  overflow-x: hidden;
+}
+
+/* 
+=== Reusable Code ===
+ */
+
+.mainBtn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text-white);
+  background-color: var(--bg-secondry);
+  border: 1px solid var(--bg-secondry);
+  padding: 0.8rem 1.8rem;
+  font-weight: 600;
+  border-radius: 100vw;
+  transition: all 0.3s ease-in-out;
+}
+
+.mainBtn:hover {
+  background-color: transparent;
+  color: var(--text-white);
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionHeading .title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--bg-primary);
+}
