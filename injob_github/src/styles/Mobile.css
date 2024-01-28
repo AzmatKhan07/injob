@@ -1,0 +1,86 @@
+@media (min-width: 2200px) {
+  .heroSection {
+    min-height: 100vh;
+  }
+
+  .workSection .outerImage {
+    margin-top: -20%;
+  }
+}
+@media (min-width: 3396px) {
+  .heroSection {
+    min-height: 80vh;
+  }
+
+  .workSection .outerImage {
+    margin-top: -25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .headerSection .navbar {
+    text-align: center;
+  }
+
+  .headerSection .navbar .nav-link {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .heroSection {
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+  }
+
+  .heroSection .heroRow {
+    flex-direction: column-reverse;
+  }
+  .heroSection .outerImage {
+    position: static;
+  }
+
+  .heroSection .heroContent {
+    margin-top: 0;
+  }
+
+  .heroSection .heroContent .title {
+    font-size: 3rem;
+  }
+
+  .heroSection .heroContent .title span::after {
+    left: 20%;
+  }
+
+  .workSection .outerImage .mainBtn {
+    position: static;
+    margin-bottom: 1rem;
+  }
+
+  .workSection {
+    margin-top: 2rem;
+  }
+
+  .workSection .workContent {
+    margin-top: 1rem;
+  }
+
+  .waitlistSection .waitlistImage {
+    display: none;
+  }
+
+  .waitlistSection .waitlistContent .waitlistForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1rem;
+  }
+
+  .waitlistSection .waitlistContent .waitlistForm .mainBtn {
+    border-radius: 0.5rem;
+  }
+
+  .footerSection .footerContainer {
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+  }
+}
